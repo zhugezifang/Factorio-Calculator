@@ -5,8 +5,6 @@ export const getNavMenu = async () => {
   return {
     name2: navMenuIndex('name2'),
     href2: navMenuIndex('href2'),
-    name3: navMenuIndex('name3'),
-    href3: navMenuIndex('href3'),
   };
 }
 
@@ -16,65 +14,12 @@ export const getIndexLanguageText = async () => {
     title: tIndex('title'),
     description: tIndex('description'),
     h1Text: tIndex('h1Text'),
-    pDescription: tIndex('pDescription'),
-    btn1: tIndex('btn1'),
-    btn2: tIndex('btn2'),
-    RowText:tIndex('RowText'),
-    ColText:tIndex('ColText')
+    pDescription: tIndex('pDescription')
   };
 }
-
-export const getWalkthroughLanguageText = async () => {
-  const tIndex = await getTranslations('walkthroughPage');
-  return {
-    title: tIndex('title'),
-    description: tIndex('description'),
-    h1Text: tIndex('h1Text'),
-    pDescription: tIndex('pDescription'),
-  };
-}
-
-export const getModApkLanguageText = async () => {
-  const tIndex = await getTranslations('modApkPage');
-  return {
-    title: tIndex('title'),
-    description: tIndex('description'),
-    h1Text: tIndex('h1Text'),
-    pDescription: tIndex('pDescription'),
-    h2_1: tIndex('h2_1'),
-    h2_1_p1: tIndex('h2_1_p1'),
-    h2_2: tIndex('h2_2'),
-    h2_2_p1: tIndex('h2_2_p1'),
-    h2_3: tIndex('h2_3'),
-    h2_3_p1: tIndex('h2_3_p1'),
-  };
-}
-
 
 export const getQuestionLanguageText = async () => {
   const tIndexQuestion = await getTranslations('indexQuestion');
-  return {
-    h2_0: tIndexQuestion('h2_0'),
-    h2_1: tIndexQuestion('h2_1'),
-    h2_1_p1: tIndexQuestion('h2_1_p1'),
-    h2_2: tIndexQuestion('h2_2'),
-    h2_2_p1: tIndexQuestion('h2_2_p1'),
-    h2_3: tIndexQuestion('h2_3'),
-    h2_3_p1: tIndexQuestion('h2_3_p1'),
-    h2_4: tIndexQuestion('h2_4'),
-    h2_4_p1: tIndexQuestion('h2_4_p1'),
-    h2_5: tIndexQuestion('h2_5'),
-    h2_5_p1: tIndexQuestion('h2_5_p1'),
-    h2_6: tIndexQuestion('h2_6'),
-    h2_6_p1: tIndexQuestion('h2_6_p1'),
-    h2_7: tIndexQuestion('h2_7'),
-    h2_7_p1: tIndexQuestion('h2_7_p1'),
-  }
-}
-
-
-export const getWalkthroughQuestionLanguageText = async () => {
-  const tIndexQuestion = await getTranslations('walkthroughQuestion');
   return {
     h2_0: tIndexQuestion('h2_0'),
     h2_1: tIndexQuestion('h2_1'),
@@ -136,17 +81,6 @@ export const getFeatureLanguageText = async () => {
     h2_5_p1: tIndexQuestion('h2_5_p1'),
     h2_6: tIndexQuestion('h2_6'),
     h2_6_p1: tIndexQuestion('h2_6_p1'),
-  }
-}
-
-
-export const getWorksPageLanguageText = async () => {
-  const tWorks = null;
-  return {
-    title: tWorks('title'),
-    description: tWorks('description'),
-    h1Text: tWorks('h1Text'),
-    pDescription: tWorks('pDescription'),
   }
 }
 
