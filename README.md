@@ -1,5 +1,5 @@
-## Perfect Tidy——Free Online Game
+## Factorio Calculator
 
-Perfect Tidy is a soothing game that transforms everyday tidying into a delightful digital experience, offering a tranquil escape into organized bliss.
+Factorio Calculator is a tool that helps players calculate resource production and consumption in the game Factorio.
 
-👉 [Perfect Tidy](https://perfect-tidy.online/)
+👉 [Factorio Calculator](https://factorio-calculator.online/)
