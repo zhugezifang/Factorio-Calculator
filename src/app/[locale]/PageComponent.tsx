@@ -136,7 +136,7 @@ const PageComponent = ({
             <section id="perfecttidylevel" className="py-12">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-3xl font-bold text-center text-indigo-800 mb-8">{indexLanguageText.h1Text} Preview</h2>
-                <img src="https://factoriocalculator.org/factorio-gameplay.png" alt="Factorio Calculator Image" className="mx-auto mt-8 rounded-lg shadow-lg" /> 
+                <img src="/factorio-gameplay.png" alt="Factorio Calculator Image" className="mx-auto mt-8 rounded-lg shadow-lg" /> 
               </div>
             </section>
             
